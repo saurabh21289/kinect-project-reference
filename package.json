@@ -1,0 +1,29 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "posturecheck",
+  "main": "index.js",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "crypto": "^0.0.3",
+    "csv-write-stream": "^2.0.0",
+    "d3": "^4.4.0",
+    "dtw": "^0.0.3",
+    "express": "^4.9.8",
+    "globby": "^6.1.0",
+    "jsonfile": "^2.3.0",
+    "kinect2": "^0.1.5",
+    "nodemon": "^1.11.0",
+    "os": "^0.1.1",
+    "pureimage": "^0.0.13",
+    "socket.io": "^1.1.0",
+    "sqlite3": "^3.1.8",
+    "webpage": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saurabh",
+  "license": "ISC"
+}
