@@ -239,6 +239,7 @@ const numCPUs = require('os').cpus().length; //used to identify # of CPU cores i
 
       var dtw_hand = new DTW();
       // List of objects look like this: { handX: 0.13617157936096191, handY: 0.30291637778282166, handZ: 0.30291637778282166 }
+      console.log(gt1_dist_hand, ex1_dist_hand);
       var cost_hand = dtw_hand.compute(gt1_dist_hand, ex1_dist_hand);
       var path_hand = dtw_hand.path();
       console.log('Cost hand: ' + cost_hand);

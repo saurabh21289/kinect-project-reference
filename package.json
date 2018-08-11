@@ -8,7 +8,6 @@
     "crypto": "^0.0.3",
     "csv-write-stream": "^2.0.0",
     "d3": "^4.4.0",
-    "dtw": "^0.0.3",
     "express": "^4.9.8",
     "globby": "^6.1.0",
     "jsonfile": "^2.3.0",
